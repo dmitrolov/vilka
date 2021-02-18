@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+    display: block;
+}
+.mainMenu{
+    display: flex;
+    border:black 1px solid;
+    width: 100%;
+    .productCard{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: center;
+        border:rgb(233,233,233) 1px solid;
+        width: 300px;
+        height: 450px;
+        
+        &__img {
+            width: auto;
+            height: 60%;
+        }
+        &__desc{
+            text-align:left;
+        }
+        &__estimation{
+            display: flex;
+            width: 100%;
+        }
+
+        
+        &__wrap{
+            display: flex;
+            width: 100%;
+            
+        }
+        &__svg{
+            width: 15px;
+            height: 15px;
+        }
+
+    }
+}
