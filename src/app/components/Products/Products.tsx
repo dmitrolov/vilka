@@ -1,12 +1,12 @@
-import './mainMenu.scss';
-export const MainMenu: React.FC = () => {
+import './Products.scss';
+export const Products: React.FC = () => {
   const isRow: boolean = true;
 
   return (
-    <div className="mainMenu">
+    <div className="Products">
       <div className="productCard">
         <img className='productCard__img' src="productimg/product_1.jpg" alt="product" />
-        <span className='productCard__desc'>
+        <span className='productCard__description'>
           назва товару тут, марка товару, код товару
             </span>
         <div className='productCard__estimation'>
@@ -16,16 +16,18 @@ export const MainMenu: React.FC = () => {
         <div className='productCard__wrap'>
           <span className='productCard__priсe'>
             цена в Грівнях
-              </span>
-          <div className='productCard__chosen'>
-            <a href="#">
-              <img className='productCard__svg' src="productimg/heart.svg" alt="<3" />
-            </a>
-          </div>
-          <div className='productCard__basket'>
-            <a href="#">
-              <img className='productCard__svg' src="productimg/basket.svg" alt="telega" />
-            </a>
+          </span>
+          <div className="productCard__object">
+            <div className='productCard__chosen'>
+              <a href="#">
+                <img className='productCard__svg' src="productimg/heart.svg" alt="<3" />
+              </a>
+            </div>
+            <div className='productCard__basket'>
+              <a href="#">
+                <img className='productCard__svg' src="productimg/basket.svg" alt="telega" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
