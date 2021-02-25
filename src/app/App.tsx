@@ -4,9 +4,9 @@ import { Footer } from './components/footer/footer';
 import { Header } from './components/header/header';
 import { MainMenu } from './components/mainMenu/mainMenu';
 
-const App: React.FC = () => {
-  const displayWidth = document.body.clientWidth;
+export const displayWidth = document.body.clientWidth;
 
+const App: React.FC = () => {
   return (
     <div className="App">
       <Header></Header>
